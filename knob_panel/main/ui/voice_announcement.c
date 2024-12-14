@@ -15,7 +15,7 @@ static uint8_t current_brightness = 0;
 // Function to simulate voice feedback
 void play_voice_feedback(uint8_t brightness) {
     ESP_LOGI(TAG, "Announcing brightness: %d%%", brightness);
-    // Code for audio playback can be added here
+
 }
 
 void voice_announcement_task(void *arg) {
